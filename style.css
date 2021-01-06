@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+}
+
+.primary{
+    color: #93cb58;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+p{
+    font-size: 20px;
+    padding: 0.7rem;
+}
+
+.container{
+    max-width: 1100px;
+    padding: 0 2rem;
+    margin: auto;
+    overflow: hidden; 
+}
+
+.btn{
+    background: #93cb58;
+    color: #fff;
+    padding: 7px 7px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.btn-dark{
+    background: #333;
+    color: #fff;
+}
+
+.btn:hover{
+    background: #b6dd8b;
+}
+
+.bg-lite{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+
+.bg-primary{
+    background: #93cb58;
+    color: #fff;
+}
+
+.py-1{padding: 2rem 0;}
+
+.p-2{padding: 0.5rem 0;}
+
+
+/* Navbar */
+
+#navbar{
+    display: flex;
+    background: #333;
+    color: #fff;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+#navbar ul li a{
+    color: #fff;
+    padding: 12px;
+    margin: 0 4px;
+
+}
+
+#navbar ul li a:hover{
+    background: #93cb58;
+    border-radius: 5px;
+}
+
+/* Header */
+
+#showcase{
+    background: url(../1/img/img.jpg) 
+    no-repeat center center/cover;
+    height: 100vh;
+    color: #ffffff;
+}
+
+#showcase .content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    position: absolute;
+    top: 65;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.3);
+}
+
+.l-heading{
+    font-size: 38px;
+    color: #ecf0f1;
+}
+
+/* Section */
+#what .items{
+    display: flex;
+    padding: 1rem;
+}
+
+#what .item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .item i{
+    background: #93cb58;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.m-heading{
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Section Who */
+
+#who{
+    display: flex;
+}
+
+#who div{
+    flex: 1;
+}
+
+#who .who-img{
+    background: url(../1/img/pexels-ylanite-koppens-796602.jpg)no-repeat center center/cover;
+
+}
+
+.list{
+    margin: 1rem 0;
+    padding: 0.2rem 1rem;
+    list-style: none;
+}
+
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+
+/* Section Clients */
+
+#clients .items{
+    display: flex;
+}
+
+#clients .items img{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+/* Section Contact */
+#contact{
+    display: flex;
+}
+
+#contact .map,#contact .contact-form{
+    flex: 1;
+}
+
+#contact .contact-form .form-group{
+    margin: 0.75rem;
+    
+}
+
+label{
+    display: block;
+}
+
+input{
+    padding: 0.3rem;
+    width: 100%;
+}
+
+textarea{
+    padding: 1rem;
+    width: 100%;
+}
+
+.btn{
+    text-align: center;
+}
+
+/* footer */
+#main-footer{
+    margin: auto;
+}
+.abc{
+    text-align: center;
+}

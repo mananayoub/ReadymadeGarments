@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readymade Garments</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (man-width: 600px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="widescreen.css">
+</head>
+<body id="home">
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="primary"><i class="fas fa-tshirt"></i> RM</span>Garments
+        </h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="showcase">
+        <div class="content">
+            <h1 class="l-heading">
+                The Joy Of Dressing Is An Art
+            </h1>
+            <p>
+                Our clothes are too much a part of us for most of us ever to be entirely indifferent to their condition: it is as though the fabric were indeed a natural extension of the body, or even of the soul.
+            </p>
+            <a href="#what" class="btn"> ReadMore</a>
+        </div>
+    </header>
+
+    <!-- Section What -->
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading">
+                <span class="primary">What </span>We Do
+            </h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-user-tie fa-2x"></i>
+                    <h3>Premium Quality</h3>
+                    <p>In our Premium Quality, you'll find timeless pieces with a premium look and feel.Buy now and love forever!.</p>
+                </div>
+                <div class="item">
+                    <i class="far fa-star fa-2x"></i>
+                    <h3>Mass Production</h3>
+                    <p>The production or manufacture of goods in large quantities, especially by machinery.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-truck-loading fa-2x"></i>
+                    <h3>Home Delivery</h3>
+                    <p>Get fast, reliable, on-time shipping services.Home delivery tailored to your recipient's schedule</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Who -->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-txt bg-dark p-2">
+            <h2 class="m-heading ">
+                <span class="primary">Who </span>We Are
+            </h2>
+            <p>We work hard to protect your security and privacy. Our payment security system encrypts your information during transmission. We don't share your credit card details with third-party sellers, and we don't sell your information to others.</p>
+            <h2>Our Team</h2>
+            <ul class="list">
+                <li>Mohammad Ayoub Bhat: CEO</li>
+                <li>Abdul Hanan: CFO</li>
+                <li>Abdullah: Lead Accountant</li>
+                <li>Yousuf: Senior Accountant</li>
+                <li>Abdul Manan: Investement Manager</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section Clients -->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="m-heading">
+                <span class="primary">Our </span>Clients</h2>
+                <div class="items py-1">
+                    <div ><img src="../1/logos/logo1.png" alt="Clients"></div>
+                    <div ><img src="../1/logos/logo2.png" alt="Clients"></div>
+                    <div ><img src="../1/logos/logo3.png" alt="Clients"></div>
+                    <div ><img src="../1/logos/logo4.png" alt="Clients"></div>
+                    <div ><img src="../1/logos/logo5.png" alt="Clients"></div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="c-heading">Contact Us</h2>
+            <p>Please use the below form to contact us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="name" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="number">Phone Number</label>
+                    <input type="number" name="number" id="number" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea type="message" name="message" id="message" placeholder="Enter Message"> </textarea>
+                </div>
+                <input type="submt" value="Send" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark abc p-2">
+        <div class="container">
+            <p>Copyright &copy; 2020, Readymade Garments, All Rights reserved </p>
+        </div>
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBx7DHiNrkpcfPDLo-UWU3YBMQ9boBwoX4&callback=initMap&libraries=&v=weekly"
+    defer
+  ></script>
+</body>
+</html>
