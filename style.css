@@ -103,7 +103,7 @@ p{
 /* Header */
 
 #showcase{
-    background: url(../1/img/img.jpg) 
+    background: url(img.jpg) 
     no-repeat center center/cover;
     height: 100vh;
     color: #ffffff;
@@ -162,7 +162,7 @@ p{
 }
 
 #who .who-img{
-    background: url(../1/img/pexels-ylanite-koppens-796602.jpg)no-repeat center center/cover;
+    background: url(pexels-ylanite-koppens-796602.jpg)no-repeat center center/cover;
 
 }
 
